@@ -3,11 +3,11 @@
 # Site wide configuration
 ####################################
 #
-title: zhujiajun
-email: zhujiajun.me@gmail.com
-description: zhujiajun's blog,powered by jekyll.
-url: https://zjiajun.github.io # the base hostname & protocol for your site
-keywords: ["Programming", "Java", "Scala","Blog"]
+title: bfansheng
+email: bfansheng@gmail.com
+description: bfansheng's blog,powered by jekyll.
+url: https://bfansheng.github.io # the base hostname & protocol for your site
+keywords: ["Programming", "Java", "Blog"]
 
 #
 ###################################
@@ -33,35 +33,8 @@ kramdown:
 ####################################
 #
 owner:
-  name: zhujiajun
+  name: bfansheng
   avatar: avatar.jpg
-  job: "Java & Scala Developer"
-  bio: "A backend developer who loves design awesome things. Working for Dianping at in Shanghai, China."
-  email: zhujiajun.me@gmail.com
-  disqus-shortname: #username
-  twitter:  #username
-  facebook: #username
-  google:
-    plus: #username
-    analytics: UA-62251910-2
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
-  github: zjiajun #username
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-  codepen: #username
-  telegram: #username
+  job: "Java Developer"
+  bio: "鲜衣怒马少年时，一日看尽长安花"
+  email: bfansheng@gmail.com
