@@ -17,7 +17,7 @@ keywords: ["Programming", "Java", "Blog"]
 timezone:          Asia/Shanghai
 markdown:          kramdown
 highlighter:       rouge
-#excerpt_separator: <!--more-->
+excerpt_separator: '------'
 permalink:         /articles/:year-:month/:title
 
 kramdown:
