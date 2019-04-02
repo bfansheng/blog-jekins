@@ -6,7 +6,7 @@
 title: bfansheng
 email: bfansheng@gmail.com
 description: bfansheng's blog,powered by jekyll.
-url: https://bfansheng.github.io # the base hostname & protocol for your site
+url: bfansheng.github.io # the base hostname & protocol for your site
 keywords: ["Programming", "Java", "Blog"]
 
 #
