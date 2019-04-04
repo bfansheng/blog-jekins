@@ -13,14 +13,24 @@
         <a href="{{ site.url }}/">主页</a>
         <span>/</span>
       </li>
-      {% for page in site.pages %} {% if page.title %}
+     
+      <!-- 归档 -->
       <li class="nav-item">
-        <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
-        {% unless forloop.last %}
+        <a href="{{ site.url }}/archive">归档</a>
           <span>/</span>
-        {% endunless %}
       </li>
-      {% endif %} {% endfor %}
+
+      <!-- 分类 -->
+      <li class="nav-item">
+        <a href="{{ site.url }}/categories">分类</a>
+          <span>/</span>
+      </li>
+
+      <!-- 标签 -->
+      <li class="nav-item">
+        <a href="{{ site.url }}/tags">标签</a>
+      </li>
+
     </ul>
   </nav>
   <!-- {% include social-links.html %} -->
