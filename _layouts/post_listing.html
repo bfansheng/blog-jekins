@@ -8,9 +8,9 @@ layout: default
 <section class="post">
   <header class="post-header">
     <p class="post-meta">
-      <span class="post-date">
+<!--       <span class="post-date">
         {{ post.date | date: "%Y年%m月%d日" | upcase }}
-      </span>
+      </span> -->
       <!-- {% if post.categories.size > 0 %}
       •
       {% for cat in post.categories %}
@@ -21,12 +21,12 @@ layout: default
       {% endfor %}
       {% endif %} -->
     </p>
-    <h4>
+<!--     <h4>
       <a href="{{ site.url }}{{ post.url }}" class="post-title" title="{{ post.title }}">{{ post.title }}</a>
       {% if post.link %}
       <a class="post-title-link" href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-external-link"></i></a>
       {% endif %}
-    </h4>
+    </h4> -->
 
     {% if post.author %}
       {% assign author = site.data.authors[post.author] %}
