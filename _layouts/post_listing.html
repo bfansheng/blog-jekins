@@ -5,8 +5,8 @@ layout: default
 {% for post in site.posts %}
 {% for cat in post.categories %}
 {% if cat == 'index' %}
-<section class="post">
- <!-- <header class="post-header">
+ <!-- <section class="post">
+<header class="post-header">
     <p class="post-meta">
        <span class="post-date">
         {{ post.date | date: "%Y年%m月%d日" | upcase }}
@@ -60,7 +60,7 @@ layout: default
     </div><!-- /.image-wrap -->
     {% endif %}
 
-</section>
+<!-- </section> -->
 {% endif %}
 {% endfor %}
 {% endfor %}
