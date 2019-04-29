@@ -15,17 +15,21 @@ keywords: ["Programming", "Java", "Blog"]
 ####################################
 #
 timezone:          Asia/Shanghai
-markdown:          kramdown
+#markdown:          kramdown
+markdown:          redcarpet
 highlighter:       rouge
 excerpt_separator: '------'
 permalink:         /articles/:year-:month/:title
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
+redcarpet:
+    extensions: [ "hard_wrap","autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify","no_intra_emphasis"]
+    
+# kramdown:
+#   auto_ids: true
+#   footnote_nr: 1
+#   entity_output: as_char
+#   toc_levels: 1..6
+#   enable_coderay: false
 
 #
 ###################################
