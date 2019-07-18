@@ -16,7 +16,6 @@ keywords: ["Programming", "Java", "Blog"]
 #
 timezone:          Asia/Shanghai
 markdown:          kramdown
-markdown:          redcarpet
 highlighter:       rouge
 excerpt_separator: '------'
 permalink:         /articles/:year-:month/:title
