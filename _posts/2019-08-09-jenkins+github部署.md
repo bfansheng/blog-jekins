@@ -7,9 +7,9 @@ tags: [jenkins]
 
 ![jenkins_0](/assets/jenkins_0.png)
 
-![jenkins_1](img\jenkins_1.png)
+![jenkins_1](/assets/jenkins_1.png)
 
-![jenkins_1](img\jenkins_2.png)
+![jenkins_2](/assets/jenkins_2.png)
 
-![jenkins_1](img\jenkins_3.png)
+![jenkins_3](/assets/jenkins_3.png)
 
