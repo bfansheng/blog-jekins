@@ -5,7 +5,7 @@ categories: [jenkins]
 tags: [jenkins]
 ---
 
-![jenkins_1](img\jenkins_0.png)
+![jenkins_1]({{site.baseurl}}\img\jenkins_0.png)
 
 ![jenkins_1](img\jenkins_1.png)
 
